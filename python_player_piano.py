@@ -18,8 +18,8 @@ import winsound
 # duration specifies the duration in milliseconds that the sound should last.
 
 # BEGIN FUNCTION playNote ----------------------------------------------
-# The playNote function accepts a note and octave as an input parameters, and makes
-# a beep sound at the appropriate frequency for that note.
+# The playNote function accepts a note, octave, and noteValue as an input parameters, and makes
+# a beep sound at the appropriate frequency for that note for the appropriate duration.
 # 
 def playNote(note, octave, noteValue):
 
